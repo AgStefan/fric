@@ -1,0 +1,2 @@
+# fric
+Se doreşte dezvoltarea unui cadru-suport (framework, platformă) pentru a vizualiza eficient diverse tipuri de fractali -- minimal, sisteme generative precum fractalii Lindenmayer (L-systems) implicând un număr foarte mare de reguli şi/sau iteraţii. Modalitatea de redare (2D şi 3D) va recurge la utilizarea uneia sau mai multor soluţii aliniate problematicilor cloud computing -- a se explora resursele oferite de Awesome Cloud Native.
