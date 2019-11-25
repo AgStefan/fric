@@ -1,0 +1,91 @@
+<!doctype HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Scholarly-HTML</title>
+</head>
+<body style="margin: 50px 100px 100px 100px; text-align: center; font-size: 17px;">
+  <header>
+    <h1>Scholarly-HTML FrIC</h1>
+  </header>
+  <div role="info">
+    <dl>
+      
+      <dd>
+        Agape Ionut-Stefan
+      </dd>
+     
+    </dl>
+  </div>
+  <section id="cerinta">
+    <h2>Cerinta: </h2>
+    <p>
+      Se doreşte dezvoltarea unui cadru-suport (framework, platformă) pentru a vizualiza eficient diverse tipuri de
+      fractali -- minimal, sisteme generative precum fractalii Lindenmayer (L-systems) implicând un număr foarte mare de
+      reguli şi/sau iteraţii. Modalitatea de redare (2D şi 3D) va recurge la utilizarea uneia sau mai multor soluţii
+      aliniate problematicilor cloud computing -- a se explora resursele oferite de Awesome Cloud Native.
+    </p>
+  </section>
+  <section id="arhitectura">
+    <h2>Arhitectura aplicatiei</h2>
+   
+    <section>
+        Va fi o aplicatie de tip Single Page Application in care se va afisa un formular unde utilizatorul va putea da un input pentru a 
+        genera un fractal (simboluri, reguli, unghi de rotatie, iteratii etc). <br> Dupa calcularea fractalului se va afisa o imagine a acestuia
+        pe interfata web.
+      
+    </section>
+  </section>
+  <section id="etape-principale">
+    <h2>Etapele principale ale proiectului</h2>
+    <p>
+      1. Implementarea clientului. Implementarea unei interfete care ii va permite utilizatorului sa introduca datele de input necesare generarii
+         unui fractal.<br> Se vor face verificari asupra datelor si se fa afisa un mesaj daca anumite date nu sunt introduse sau sunt introduse incorect.
+    </p>
+    <p>
+      2. Crearea unei cloud function care va avea ca input datele introduse de utilizator, va calcula fractalul si 
+         va returna o imagine ca si reprezentare a fractalului.<br>
+         Crearea unei functii care va returna daca inputul dat de utilizator corespunde cu un fractal ce deja a fost calculat si stocat 
+         intr-o baza de date.
+         In baza de date vor fi stocate imagini ale fractalilor (in sir de biti).
+    </p>
+    <p>
+      3. O functie de customize pentru fractalii deja existenti in baza de date.
+    </p>
+    <p>
+      4...
+    </p>
+
+  </section>
+  <section id="interactiune">
+    <h2>Interactiunea cu utilizatorul</h2>
+    <p>
+
+      Pe pagina aplicatiei utilizatorul va vedea un formular care ii va permite sa genereze fractali pe baza unui input dat de el. 
+      Daca inputul este gresit utilizatorul va fi notificat.<br> Dupa ce utilizatorul da inputul i se va afisa o imagine a fractalului generat
+      pentru vizualizare sau pentru descarcare. 
+      Va avea optiunea de a vizualiza fractali deja existenti in baza de date si ii va putea genera din nou aplicand mici modificari vizuale. 
+
+      
+    </p>
+  </section>
+  <section id="git">
+    <h2>Modul de folosire a sistemului de management</h2>
+    <p>GitHub: <a href="https://github.com/AgStefan/fric">FrIC</a></p>
+    <p>
+      Aici vor fi salvate toate modificarile aplicatiei.
+    </p>
+   
+  </section>
+  <section id="modelarea-date">
+    <h2>Soluţiile de stocare disponibile</h2>
+    <p>
+      Pentru stocarea datelor necesare se va folosi o baza de date relationala Cloud SQL. In baza de date se vor tine doar datele legate de 
+      fractalii generati (pentru un anumit input va fi o anumita imagine).
+      
+    </p>  
+  </section>
+
+</body>
+</html
